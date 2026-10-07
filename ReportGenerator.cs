@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Extensions.Logging;
 
+namespace ReportGeneration;
+
 public sealed class ReportGenerator
 {
     private readonly IReadOnlyCollection<IReportFormatter> _formatters;

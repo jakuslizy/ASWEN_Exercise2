@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 
+namespace ReportGeneration;
+
 public interface IReportFormatter
 {
     string FormatName { get; }

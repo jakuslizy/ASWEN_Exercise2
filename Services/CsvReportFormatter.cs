@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
 
+namespace ReportGeneration;
+
 public sealed class CsvReportFormatter : IReportFormatter
 {
     public string FormatName => "csv";

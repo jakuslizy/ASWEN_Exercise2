@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Text.Json;
 
+namespace ReportGeneration;
+
 public sealed class JsonReportFormatter : IReportFormatter
 {
     public string FormatName => "json";
